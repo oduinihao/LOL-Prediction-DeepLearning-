@@ -1,5 +1,7 @@
 # LOL-Prediction-DeepLearning-
 challenge on high_diamond_ranked_10min data
+英雄联盟对局结果预测挑战
+======================
 此项目为英雄联盟对局结果预测实验代码，在不使用决策树类模型的前提下进行，使用多种方法，最优模型为MLP，配合SMOTE数据增强下预测准确率最高为**75.2%**，代码在MLP_SMOTE.py文件中。因为训练具有一定随机性，可能需要进行若干次训练。
 此外，本实验还尝试了其他多种方法：
 1.SVM支持向量机：SVM.py
